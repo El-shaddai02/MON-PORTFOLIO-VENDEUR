@@ -1,0 +1,42 @@
+/* Explain: Base CSS reset and global typography styles. */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--background-color);
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: var(--font-body);
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+::selection {
+    background: var(--accent-color);
+    color: #ffffff;
+}
+
+:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}

@@ -1,0 +1,25 @@
+/* Explain: Theme design tokens (colors, fonts, spacing, shadows). */
+:root {
+    --primary-color: #1d4ed8;
+    --primary-hover: #1e40af;
+    --primary-light: #dbeafe;
+    --secondary-color: #0f172a;
+    --accent-color: #dc2626;
+    --accent-hover: #b91c1c;
+    --accent-light: #fee2e2;
+    --background-color: #ffffff;
+    --surface-color: #f8fafc;
+    --surface-alt: #f1f5f9;
+    --text-color: #0f172a;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+    --footer-bg: #0b1220;
+    --font-heading: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --radius-sm: 0.5rem;
+    --radius-md: 0.875rem;
+    --radius-lg: 1.25rem;
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+    --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+    --shadow-lg: 0 20px 45px rgba(15, 23, 42, 0.12);
+}
